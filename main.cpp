@@ -10,16 +10,13 @@
 
 int main()
 {
-    std::vector<std::string> vec = populateVector(5000);
-    reverseSort(vec);
-    selection_sort(vec);
-
-    reverseSort(vec);
-    insert_sort(vec);
-
-    mergeSort(vec);
-
+    std::vector<std::string> vec;
+    insertTokensToVec(vec, 8000);
     qsort(vec);
-    std::cout << maxRecurDepth;
+    printVector(vec);
+    validateInput(vec);
+
+
+
 
 }
