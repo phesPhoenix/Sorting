@@ -1,5 +1,4 @@
-#ifndef QUICKSORT_H
-#define QUICKSORT_H
+#pragma once
 
 #include <vector>
 #include <string>
@@ -11,4 +10,4 @@ int partition(std::vector<std::string>& a, int lo, int hi);
 void quicksort(std::vector<std::string>& a, int lo, int hi);
 void qsort(std::vector<std::string>& a);
 
-#endif
+

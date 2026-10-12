@@ -1,9 +1,8 @@
-#ifndef SELECTIONSORT_H
-#define SELECTIONSORT_H
+#pragma once
 
 #include <vector>
 #include <string>
 
 void selection_sort(std::vector<std::string>& arr);
 
-#endif
+

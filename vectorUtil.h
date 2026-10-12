@@ -1,5 +1,4 @@
-#ifndef VECTORUTIL_H
-#define VECTORUTIL_H
+#pragma once
 
 #include <vector>
 #include <string>
@@ -15,4 +14,4 @@ bool validateInput (std::vector<std::string>& a);
 std::vector<std::string> populateVector(int n);
 void printVector(std::vector<std::string>& arr);
 
-#endif
+
