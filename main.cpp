@@ -12,9 +12,10 @@ int main()
 {
     std::vector<std::string> vec;
     insertTokensToVec(vec, 8000);
+    insert_sort(vec);
+    selection_sort(vec);
+    mergeSort(vec);
     qsort(vec);
-    printVector(vec);
-    validateInput(vec);
 
 
 

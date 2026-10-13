@@ -62,7 +62,7 @@ void printVector(std::vector<std::string>& arr){
 }
 
 std::vector<std::string> insertTokensToVec(std::vector<std::string>& a, int limit){
-    FTokenizer ftk("amendments.txt");
+    FTokenizer ftk("TomSawyer.txt");
     Token t;
     bool lastWasAlpha = false;
     while (ftk.more()){
